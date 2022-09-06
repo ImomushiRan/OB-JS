@@ -1,0 +1,33 @@
+.seccion {
+    background-color:greenyellow;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.parrafo {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+.bin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bin2 {
+    background-color: greenyellow;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.bin2 .parrafo {
+    visibility: hidden;
+    position: absolute;
+}
